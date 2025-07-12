@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be mine, Miyah?</title>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background: #ffe6f0;
+        color: #333;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .card {
+        background: white;
+        display: inline-block;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        color: #e75480;
+    }
+
+    button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .yes {
+        background-color: #e75480;
+        color: white;
+    }
+
+    .no {
+        background-color: #ccc;
+        color: #333;
+        }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Miyah, my world, my love, my prettiest girl</h1>
+    <p>If i told you that i see no one else but you, that i want you to be the last chapter of my story, the reason my heart beats every day... and if i asked you to be mine, truly and only mine, would you say yes, Mimat?</p>
+    <button class="yes" onclick="sayYes()">Yes</button>
+    <button class="no" onclick="sayNo()">No</button>
+</div>
+
+<script>
+function sayYes() {
+    document.body.innerHTML = `
+    <h1 style="color:#e75480;">Yes... officially, you belong to me now</h1>
+    <p>
+        Thanks for everything sayangku. <a href="https://m/8L19i3MHZDdl">Chat me heree</a>
+        </p>
+        `;
+    }
+
+function sayNo() {
+    alert("Gblh. Km hrs trima cintaku.");
+    }
+</script>
+
+</body>
+</html>
+
+
